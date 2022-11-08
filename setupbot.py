@@ -10,7 +10,7 @@ import os, re, glob, sqlite3 as db
 eps = glob.glob("*.mp4")
 
 # Number of frames per second you want the show to be split into
-fps = 1
+fps = 3
 
 os.mkdir('frames')
 
