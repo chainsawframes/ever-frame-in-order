@@ -7,8 +7,8 @@ import tweepy, sqlite3 as db, os
 # Put your Twitter API keys and stuff here
 CONSUMER_KEY = "CpLPVbZdUjSBDQMnOqgzDmywp"
 CONSUMER_SECRET = "ezqitCXj1mVyaJK9cMCiEOflyuOPtqtjbrjNTkaNNdhg7IVoan"
-ACCESS_TOKEN = "AAAAAAAAAAAAAAAAAAAAAGlmjAEAAAAAfdvHziKw1gjVtxEio3BVS%2FauYTw%3DeTZdCOQyV015ULxhR2UZigdcLFgLYyZ1ahmIMbl7Lg4ghHdOWh"
-ACCESS_TOKEN_SECRET = ""
+ACCESS_TOKEN = "1590057201271537664-R7Wk8Vzf7m62DdN9ZKlTtf2ZJUk0lu"
+ACCESS_TOKEN_SECRET = "MuKAaXiLYIucj5nY6CiOXTtRXuCzXuJrAinwjpXE9KAOr"
 
 auth = tweepy.OAuth1UserHandler(
     CONSUMER_KEY, 
@@ -23,7 +23,7 @@ connection = db.connect("framebot.db")
 cursor = connection.cursor()
 
 # Enter the name of the show you're posting frames for here:
-show_name = ""
+show_name = "Chainsaw Man"
 
 # Put the number of frames the bot should post each time this script is run here.
 iters = 5
