@@ -5,9 +5,9 @@
 import tweepy, sqlite3 as db, os
 
 # Put your Twitter API keys and stuff here
-CONSUMER_KEY = ""
-CONSUMER_SECRET = ""
-ACCESS_TOKEN = ""
+CONSUMER_KEY = "CpLPVbZdUjSBDQMnOqgzDmywp"
+CONSUMER_SECRET = "ezqitCXj1mVyaJK9cMCiEOflyuOPtqtjbrjNTkaNNdhg7IVoan"
+ACCESS_TOKEN = "AAAAAAAAAAAAAAAAAAAAAGlmjAEAAAAAfdvHziKw1gjVtxEio3BVS%2FauYTw%3DeTZdCOQyV015ULxhR2UZigdcLFgLYyZ1ahmIMbl7Lg4ghHdOWh"
 ACCESS_TOKEN_SECRET = ""
 
 auth = tweepy.OAuth1UserHandler(
